@@ -1,9 +1,11 @@
+import avatar from "./assets/images/avatar-michelle.jpg"
+
 const Profile = ({ hideProfileOnSmallScreen, handleClick, buttonColor = "" }) => {
   return (
     <div className={"px-[2.25rem] lg:px-[2.6rem] " + (hideProfileOnSmallScreen ? "sm:hidden lg:block" : "")}>
       <div className={"mt-8 flex items-center justify-center pb-4 lg:-mt-[4.4rem] "}>
         <div className={""}>
-          <img className={"h-10 w-10 rounded-full"} src={"/avatar-michelle.jpg"} alt={""} />
+          <img className={"h-10 w-10 rounded-full"} src={avatar} alt={""} />
         </div>
 
         <div className={"ml-4"}>

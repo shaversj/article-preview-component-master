@@ -3,11 +3,6 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      spacing: {
-        "2/4": "40%",
-        "1/4": "25%",
-        "3/4": "75%"
-      },
       screens: {
         sm: "375px",
         lg: "1440px"
